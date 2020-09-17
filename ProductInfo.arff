@@ -1,0 +1,13 @@
+@relation ProductDetails
+
+@attribute productId numeric
+@attribute productName string
+@attribute status {Available, NotAvailable}
+@attribute deliveryDate date "yyyy-MM-dd"
+
+@data
+
+101,Mango,Available,"2020-09-29"
+102,Trousers,NotAvailable,"2020-10-3"
+103,Watch,Available,"2020-10-23"
+104,Headset,Available,"2020-8-16"
